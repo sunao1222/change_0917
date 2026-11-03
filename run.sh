@@ -338,7 +338,7 @@ input=""
 if test $confirm -eq 1 ; then
   # show diff
   mydiff
-  echo 'Apply the changes? [confirm]'
+  echo 'Apply the changes? [Y/n]'
   read input < /dev/tty
 fi
 
