@@ -273,11 +273,11 @@ if [ -f /etc/os-release ]; then
       bkpath="/etc/apt/backup"
       case "$NAME" in
         "Parrot Security")
-          srcfiles="$srcfiles sources.list.d/parrot.list"
+          srcfiles="sources.list.d/parrot.list"
           churl="parrot"
           ;;
         *)
-          srcfiles="$srcfiles sources.list.d/debian.sources"
+          srcfiles="sources.list.d/debian.sources"
           churl="simple"
           ;;
       esac
